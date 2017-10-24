@@ -7,7 +7,7 @@ guessesTaken = 0 # number of guesses begin at 0
 print('Hello! What is your name? ')
 myName = input() # lets me input my name
 
-number = random.randint(1,20) # generates random numbers between range of 0-20, can be changed to whatever
+number = random.randint(1,20) # generates random numbers between range of 1-20, can be changed to whatever
 print('Well,' + myName + ', I am thinking of a number between 1 and 20. ')
 for guessesTaken in range(6): # range here limits how many guesses before game over. for loop 6 times begins
     print('Take a guess.') # four spaces in front of print
